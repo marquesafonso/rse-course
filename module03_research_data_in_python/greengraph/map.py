@@ -29,15 +29,14 @@ class Map:
         # Use NumPy to build an element-by-element logical array
         greener_than_red = self.pixels[:, :, 1] > threshold * self.pixels[:, :, 0]
         greener_than_blue = self.pixels[:, :, 1] > threshold * self.pixels[:, :, 2]
-        green = np.logical_and(greener_than_red, greener_than_blue)
-        return green
+        return np.logical_and(greener_than_red, greener_than_blue)
 
     def count_green(self, threshold=1.1):
         return np.sum(self.green(threshold))
 
-    def show_green(data, threshold=1.1):
+    def show_green(self, threshold=1.1):
         green = self.green(threshold)
-        out = green[:, :, np.newaxis] * array([0, 1, 0])[np.newaxis, np.newaxis, :]
+        out = green[:, :, np.newaxis] * np.array([0, 1, 0])[np.newaxis, np.newaxis, :]
         buffer = BytesIO()
         result = img.imwrite(buffer, out, format="png")
         return buffer.getvalue()

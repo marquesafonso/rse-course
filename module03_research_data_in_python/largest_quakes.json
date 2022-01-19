@@ -1,0 +1,82 @@
+[
+    {
+        "type": "Feature",
+        "properties": {
+            "mag": 4.8,
+            "place": "2 km ESE of Wombourn, United Kingdom",
+            "time": 1032738794600,
+            "updated": 1600455819229,
+            "tz": null,
+            "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000bcxg",
+            "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000bcxg&format=geojson",
+            "felt": null,
+            "cdi": null,
+            "mmi": 6.161,
+            "alert": null,
+            "status": "reviewed",
+            "tsunami": 0,
+            "sig": 354,
+            "net": "us",
+            "code": "p000bcxg",
+            "ids": ",usp000bcxg,atlas20020922235314,",
+            "sources": ",us,atlas,",
+            "types": ",impact-text,origin,phase-data,shakemap,trump-shakemap,",
+            "nst": 268,
+            "dmin": null,
+            "rms": null,
+            "gap": null,
+            "magType": "mb",
+            "type": "earthquake",
+            "title": "M 4.8 - 2 km ESE of Wombourn, United Kingdom"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -2.15,
+                52.52,
+                9.4
+            ]
+        },
+        "id": "usp000bcxg"
+    },
+    {
+        "type": "Feature",
+        "properties": {
+            "mag": 4.8,
+            "place": "1 km NNE of Market Rasen, United Kingdom",
+            "time": 1204073807800,
+            "updated": 1600466852312,
+            "tz": null,
+            "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000g02w",
+            "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000g02w&format=geojson",
+            "felt": 19102,
+            "cdi": 6.2,
+            "mmi": 5.746,
+            "alert": null,
+            "status": "reviewed",
+            "tsunami": 0,
+            "sig": 974,
+            "net": "us",
+            "code": "p000g02w",
+            "ids": ",us2008nyae,usp000g02w,atlas20080227005647,",
+            "sources": ",us,us,atlas,",
+            "types": ",associate,dyfi,impact-text,origin,phase-data,shakemap,trump-shakemap,",
+            "nst": 361,
+            "dmin": null,
+            "rms": null,
+            "gap": 19.2,
+            "magType": "mb",
+            "type": "earthquake",
+            "title": "M 4.8 - 1 km NNE of Market Rasen, United Kingdom"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -0.332,
+                53.403,
+                18.4
+            ]
+        },
+        "id": "usp000g02w"
+    }
+]
